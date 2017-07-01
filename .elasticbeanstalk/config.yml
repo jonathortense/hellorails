@@ -2,7 +2,7 @@ branch-defaults:
   default:
     environment: development
     group_suffix: null
-  master:
+  staging:
     environment: hellorails-staging-web-2
     group_suffix: null
 global:
