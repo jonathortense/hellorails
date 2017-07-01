@@ -3,10 +3,10 @@ branch-defaults:
     environment: development
     group_suffix: null
   master:
-    environment: hellorails-staging-web
+    environment: hellorails-staging-web-2
     group_suffix: null
 global:
-  application_name: hellorails
+  application_name: hellorails-staging
   branch: null
   default_ec2_keyname: AWS-EU-Servers
   default_platform: Ruby 2.3 (Puma)
