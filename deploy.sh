@@ -7,7 +7,7 @@ environment_name=`eb list | grep "*" | sed "s/\\* //"`
 
 
 # master
-git co $1
+git checkout $1
 eb deploy --timeout 100 --label $commit_id-$environment_name
 
 
